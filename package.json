@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "prebuild-install || node-gyp rebuild",
+    "install": "prebuild-install --debug --verbose || node-gyp rebuild",
     "prebuild": "prebuild"
   },
   "keywords": [],
@@ -13,8 +13,6 @@
   "devDependencies": {
     "prebuild-install": "^5.3.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/emireles/gyp-tutorial.git"
-  }
+  "_from": "git://github.com/emireles/gyp-tutorial.git",
+  "gypfile": true
 }
