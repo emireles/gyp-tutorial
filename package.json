@@ -1,0 +1,15 @@
+{
+  "name": "gyp-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "prebuild-install || node-gyp rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prebuild-install": "^5.3.5"
+  }
+}
